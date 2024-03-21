@@ -8,12 +8,12 @@
 
  body,
  html {
-     background-color: rgb(6, 10, 14);
+     background-color: rgb(10, 10, 10);
 
  }
 
  header {
-     background-color: rgb(148, 148, 148);
+     background-color: rgb(243, 238, 238);
 
  }
 
@@ -24,7 +24,7 @@
 
  /*tem que usar o i#burger para aparecer o valor*/
  i#burger {
-     background-color: rgb(48, 48, 48);
+     background-color: rgb(243, 243, 243);
      color: white;
      display: none;
      text-align: center;
@@ -33,7 +33,7 @@
  }
 
  i#burger:hover {
-     background-color: white;
+     background-color: rgb(17, 14, 14);
      color: black;
  }
 
@@ -51,7 +51,7 @@
      padding: 7px;
      text-decoration: none;
      text-align: center;
-     background-color: rgba(223, 223, 223, 0.719);
+     background-color: rgba(12, 10, 10, 0.719);
      color: rgb(252, 252, 252);
      border-color: 2px rgb(44, 44, 44);
  }
@@ -69,14 +69,31 @@
      border-radius: 7px;
 
  }
+ img{width: auto;
+     margin:auto;
+     position: middle;
+     top: opx;
+     border-top-left-radius: 10px;
+     float: left;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
 
  article>h2 {
      padding-bottom: 17px;
+     
 
  }
 
  article>p {
+    
      text-align: justify;
-     margin-bottom: 7px;
-     text-indent: 17px;
+     margin-bottom: auto;
+     text-indent: justify;
+     right: 10%;
+     left:auto;
+     border:auto ;
+     float:middle;
+     
  }
